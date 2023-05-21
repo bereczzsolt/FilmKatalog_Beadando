@@ -1,4 +1,3 @@
-
 name: Feature workflow
 
 on:
@@ -37,4 +36,3 @@ jobs:
           mvn -B deploy --file pom.xml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
